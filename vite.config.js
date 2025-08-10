@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base: preocess.env.VITE_BASE_PATH || '/First-react-app',
+  base: process.env.VITE_BASE_PATH || '/First-react-app',
 });
