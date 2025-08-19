@@ -48,7 +48,7 @@ const Products = () => {
 
     return (
         <div
-        className='container py-5 pt-20 px-6 md:px-20 lg:px-30 my-20
+            className='container py-5 pt-20 px-6 md:px-20 lg:px-30 my-20
                         w-full overflow-hidden bg-[url("/src/assets/bg.jpg")] bg-center bg-cover md:min-h-screen max-w-[90rem] mx-auto
                         md:rounded-2xl' id='category'
         >

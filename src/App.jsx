@@ -9,18 +9,20 @@ import { ToastContainer } from 'react-toastify';
 import Footer from './Components/Footer.jsx'
 
 
+
 const App = () => {
   return (
-    <div>
-      <ToastContainer/>
-      <Header/>
-      <About/>
-      <Products/>
-      <Cooler/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <>
+      <Navbar />
+      <Header />
+      <About />
+      <Products />
+      <Cooler />
+      <Contact />
+      <ToastContainer />
+      <Footer />
+    </>
   )
 }
 
-export default App
+export default App;

@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 const Header = () => {
     return (
-        <div className="min-h-screen mb-4 bg-contain bg-center flex 
+        <div className="min-h-screen mb-4 bg-cover bg-center flex 
          items-center overflow-hidden" 
         style={{ backgroundImage: `url(${products.keyboard})` }} id ='Header'>
             <Navbar />
